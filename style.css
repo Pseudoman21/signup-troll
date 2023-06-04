@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: Inter, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  position: relative;
+  /* Added positioning */
+}
+
+form {
+  display: grid;
+}
+
+label {
+  margin: 5px 0;
+}
+
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button-area {
+  padding: 40px 0;
+}
+
+button {
+  font-weight: bold;
+  color: azure;
+  background-color: #2f6df5;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+}
